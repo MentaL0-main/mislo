@@ -1,9 +1,8 @@
 # Mislo
 
-Mislo - simple interpritator for mislo language.
-Project make for lesson, how created interpritators.
+Mislo - simply interpritator for mislo language.
 
-# Commands
+## Commands
 ```
 List of commands:
 	write var_name - write text to console.
@@ -14,5 +13,27 @@ List of commands:
 	quit - alias for exit.
 ```
 
-# License
-MIT. See more in LICENSE in repository.
+## Quick start
+```
+# clone repo
+git clone https://github.com/mental0-main/mislo.git
+
+# move to dir
+cd mislo
+
+# Build
+cmake . && make -j4
+
+# Run
+./mislo
+
+```
+
+## Requirements
+- Clang/Gcc
+- Git
+- Cmake
+- Make
+
+## License
+This project licensed under the **MIR License**. See LICENSE.txt.
